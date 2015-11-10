@@ -48,7 +48,8 @@ The sampler settings and data source can be set in the file
 It is also possible to replace all prior distributions,
 proposal distributions, as well as the Likelihood functions via setting the appropriate function handles in this file.
 This framework can thus be also employed to estimate ARMA models with non-normal disturbances.
-Furthermore, any proposal distribution can be used. For further information please refer to the comments in "getSettings.m".
+Furthermore, any proposal distribution can be used.
+For further information please refer to the comments in [getSettings.m] (https://github.com/QuantLet/RJMCMC/blob/master/getSettings.m).
 
 
 ## 4. Getting started
