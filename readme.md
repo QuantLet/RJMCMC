@@ -127,9 +127,9 @@ displayResults;
 
 
 ## 6. Appendix 
-To install the sampler, you can download all necessary files by clicking on "Download ZIP" on the right. Extract the files to a directory
-of your choosing, navigate there within Matlab or add it to the Matlab path, set the preferences in 
-[getSettings.m] (https://github.com/QuantLet/RJMCMC/blob/master/getSettings.m) to your liking
+To install the sampler, you can download all necessary files by clicking on [Download ZIP](https://github.com/QuantLet/RJMCMC/archive/master.zip) 
+on the right. Extract the files to a directory of your choosing, navigate there within Matlab or add it to the Matlab path, 
+set the preferences in [getSettings.m] (https://github.com/QuantLet/RJMCMC/blob/master/getSettings.m) to your liking
 and run [estimateARMA.m] (https://github.com/QuantLet/RJMCMC/blob/master/estimateARMA.m).
 
 Tested on Matlab R2015a running on Windows Server 2014 and Windows 7 Professional. Utilizes the Statistics Toolbox.
