@@ -53,11 +53,15 @@ For further information please refer to the comments in [getSettings.m] (https:/
 
 
 ## 4. Getting started
-In order to run the sampler, set the desired options in "getSettings.m" and run "estimateARMA.m". To display the results, run "displayResults.m".
-Depending on the value of the variable settings.doPlots to be set in "getSettings.m", this script will also plot the conditional
-and unconditional posterior averages for the parameters. Some synthetic data for testing is provided in testdata.mat.
+In order to run the sampler, set the desired options in [getSettings.m] (https://github.com/QuantLet/RJMCMC/blob/master/getSettings.m)
+and run [estimateARMA.m] (https://github.com/QuantLet/RJMCMC/blob/master/estimateARMA.m). To display the results, run 
+[displayResults.m] (https://github.com/QuantLet/RJMCMC/blob/master/displayResults.m).
+Depending on the value of the variable settings.doPlots to be set in [getSettings.m] (https://github.com/QuantLet/RJMCMC/blob/master/getSettings.m),
+this script will also plot the conditional and unconditional posterior averages for the parameters.
+Some synthetic data for testing is provided in [testdata.mat](https://github.com/QuantLet/RJMCMC/blob/master/testdata.mat).
 The data was generated from an AR(1) process with the standard deviation of the error term set to 0.9. The sample size is 250.
 
+Source Code of the main Matlab file [estimateARMA.m] (https://github.com/QuantLet/RJMCMC/blob/master/estimateARMA.m)
 ``` matlab
 clear all; 
 close all; home; format long g;  rng('shuffle');
