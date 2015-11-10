@@ -27,6 +27,29 @@ Furthermore, any proposal distribution can be used. For further information plea
 
 
 ## 4. Getting started
+
+```yaml
+
+Name of Quantlet: TSARMARJMCMC
+
+Published in: Univariate Time Series
+
+Description: 'Estimate univariate, stationary Autoregressive Moving 
+              Average (ARMA) models using Reversible Jump Markov Chain 
+              Monte Carlo'
+
+Keywords: Kalman filter, Markov, PACF, arma, stationary, univariate
+
+Author: Daniel Neuhoff, Alexander Meyer-Gohde
+
+Submitted: Mon, October 12 2015 by neuhoffd
+
+Input: Any zero-mean stationary univariate time series
+
+Output: 'Posterior distribution of parameters and orders of lag polynomials
+         Mean and median estimates for parameters'
+
+```
 In order to run the sampler, set the desired options in "getSettings.m" and run "estimateARMA.m". To display the results, run "displayResults.m".
 Depending on the value of the variable settings.doPlots to be set in "getSettings.m", this script will also plot the conditional
 and unconditional posterior averages for the parameters. Some synthetic data for testing is provided in testdata.mat.
