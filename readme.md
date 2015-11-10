@@ -19,7 +19,8 @@ Stationarity is ensured by reparametrizing the lag polynomials in terms of (inve
 Thus, priors and proposals have to be supplied in these terms. The supplied code evaluates the likelihood by means of the Kalman filter.
 
 
-## The sampler settings and data source can be set in the file "getSettings.m". It is also possible to replace all prior distributions,
+## Technical details
+The sampler settings and data source can be set in the file "getSettings.m". It is also possible to replace all prior distributions,
 proposal distributions, as well as the Likelihood functions via setting the appropriate function handles in this file.
 This framework can thus be also employed to estimate ARMA models with non-normal disturbances.
 Furthermore, any proposal distribution can be used. For further information please refer to the comments in "getSettings.m".
