@@ -26,7 +26,8 @@ This framework can thus be also employed to estimate ARMA models with non-normal
 Furthermore, any proposal distribution can be used. For further information please refer to the comments in "getSettings.m".
 
 
-## In order to run the sampler, set the desired options in "getSettings.m" and run "estimateARMA.m". To display the results, run "displayResults.m".
+## Getting started
+In order to run the sampler, set the desired options in "getSettings.m" and run "estimateARMA.m". To display the results, run "displayResults.m".
 Depending on the value of the variable settings.doPlots to be set in "getSettings.m", this script will also plot the conditional
 and unconditional posterior averages for the parameters. Some synthetic data for testing is provided in testdata.mat.
 The data was generated from an AR(1) process with the standard deviation of the error term set to 0.9. The sample size is 250.
