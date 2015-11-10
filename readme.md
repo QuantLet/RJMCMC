@@ -33,7 +33,8 @@ and unconditional posterior averages for the parameters. Some synthetic data for
 The data was generated from an AR(1) process with the standard deviation of the error term set to 0.9. The sample size is 250.
 
 
-## The plots are displayed as follows:
+## Simulation results
+### The plots are displayed as follows:
 
 * Posterior distribution of lag polynomial orders
 
