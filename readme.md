@@ -61,7 +61,7 @@ this script will also plot the conditional and unconditional posterior averages 
 Some synthetic data for testing is provided in [testdata.mat](https://github.com/QuantLet/RJMCMC/blob/master/testdata.mat).
 The data was generated from an AR(1) process with the standard deviation of the error term set to 0.9. The sample size is 250.
 
-Source Code of the main Matlab file [estimateARMA.m] (https://github.com/QuantLet/RJMCMC/blob/master/estimateARMA.m)
+Source Code of the main Matlab file [estimateARMA.m] (https://github.com/QuantLet/RJMCMC/blob/master/estimateARMA.m):
 ``` matlab
 clear all; 
 close all; home; format long g;  rng('shuffle');
@@ -128,8 +128,9 @@ displayResults;
 
 ## 6. Appendix 
 To install the sampler, you can download all necessary files by clicking on "Download ZIP" on the right. Extract the files to a directory
-of your choosing, navigate there within Matlab or add it to the Matlab path, set the preferences in getSettings.m to your liking
-and run estimateARMA.m.
+of your choosing, navigate there within Matlab or add it to the Matlab path, set the preferences in 
+[getSettings.m] (https://github.com/QuantLet/RJMCMC/blob/master/getSettings.m) to your liking
+and run [estimateARMA.m] (https://github.com/QuantLet/RJMCMC/blob/master/estimateARMA.m).
 
 Tested on Matlab R2015a running on Windows Server 2014 and Windows 7 Professional. Utilizes the Statistics Toolbox.
 Note that the sampler requires significant amounts of RAM depending on the number of draws. At least 8 GB are recommended!
