@@ -13,7 +13,8 @@ This quantlet contains a small suite enabling the user to estimate ARMA time ser
 but also several models.
 
 
-## The sampler provided here assumes zero-mean stationary ARMA models with normal disturbances as in Neuhoff (2015) or Meyer-Gohde and Neuhoff (2015).
+## Scientific details
+The sampler provided here assumes zero-mean stationary ARMA models with normal disturbances as in Neuhoff (2015) or Meyer-Gohde and Neuhoff (2015).
 Stationarity is ensured by reparametrizing the lag polynomials in terms of (inverse) partial autocorrelations as described in Monahan 1984.
 Thus, priors and proposals have to be supplied in these terms. The supplied code evaluates the likelihood by means of the Kalman filter.
 
