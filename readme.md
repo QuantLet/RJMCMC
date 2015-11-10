@@ -5,7 +5,7 @@
 
 
 ## Full description
-Reversible Jump Markov Chain Monte Carlo (RJMCMC) Sampler for Autoregressive Moving Average (ARMA) Time Series Models
+__Reversible Jump Markov Chain Monte Carlo (RJMCMC)__ Sampler for __Autoregressive Moving Average (ARMA)__ Time Series Models
 
 ## Purpose
 This quantlet contains a small suite enabling the user to estimate ARMA time series models using Reversible Jump Markov Chain Monte Carlo (RJMCMC)
