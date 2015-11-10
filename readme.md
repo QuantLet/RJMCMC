@@ -1,10 +1,10 @@
 
 ![http://quantnet.wiwi.hu-berlin.de/style/banner.png](http://quantnet.wiwi.hu-berlin.de/style/banner.png)
 
-## ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **TSARMARJMCMC**
+# ![qlogo](http://quantnet.wiwi.hu-berlin.de/graphics/quantlogo.png) **TSARMARJMCMC**
 
 
-# Reversible Jump Markov Chain Monte Carlo (RJMCMC) Sampler for Autoregressive Moving Average (ARMA) Time Series Models
+## Reversible Jump Markov Chain Monte Carlo (RJMCMC) Sampler for Autoregressive Moving Average (ARMA) Time Series Models
 
 ##
 This quantlet contains a small suite enabling the user to estimate ARMA time series models using Reversible Jump Markov Chain Monte Carlo (RJMCMC)
