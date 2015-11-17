@@ -7,7 +7,8 @@ Description: 'Estimate univariate, stationary Autoregressive Moving
               Average (ARMA) models using Reversible Jump Markov Chain 
               Monte Carlo'
 
-Keywords: Kalman filter, Markov, PACF, arma, stationary, univariate
+Keywords: 'Kalman filter, Markov, PACF, arma, stationary, univariate, MCMC, GDP, ARIMA, dynamics,
+Bayesian Model Averaging, Posterior Model Probability, Marginal Data Density'
 
 Author: Daniel Neuhoff, Alexander Meyer-Gohde
 
