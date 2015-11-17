@@ -38,7 +38,7 @@ but also several models.
 
 ## 2. Scientific details
 The sampler provided here assumes zero-mean stationary ARMA models with normal disturbances as in Neuhoff (2015) or Meyer-Gohde and Neuhoff (2015).
-Stationarity is ensured by reparametrizing the lag polynomials in terms of (inverse) partial autocorrelations as described in Monahan 1984.
+Stationarity is ensured by reparametrizing the lag polynomials in terms of (inverse) partial autocorrelations as described in Monahan (1984).
 Thus, priors and proposals have to be supplied in these terms. The supplied code evaluates the likelihood by means of the Kalman filter.
 
 
@@ -50,6 +50,7 @@ proposal distributions, as well as the Likelihood functions via setting the appr
 This framework can thus be also employed to estimate ARMA models with non-normal disturbances.
 Furthermore, any proposal distribution can be used.
 For further information please refer to the comments in [getSettings.m] (https://github.com/QuantLet/RJMCMC/blob/master/getSettings.m).
+The files padcat.m, rtnorm.m, and progressbar.m have been developed by third parties. Licensing and author information can be found inside the respective files.
 
 
 ## 4. Getting started
